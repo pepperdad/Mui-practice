@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Box from "@mui/material/Box";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -11,16 +11,10 @@ import LocalShippingIcon from "@mui/icons-material/LocalShipping";
 import LocalAtmIcon from "@mui/icons-material/LocalAtm";
 
 const Layout = ({ children }) => {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-
-  const toggleDrawer = () => {
-    setIsDrawerOpen(!isDrawerOpen);
-  };
-
   return (
     <Box sx={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
-      <Header onMenuClick={toggleDrawer} />
-      <Drawer anchor="left" open={isDrawerOpen} onClose={toggleDrawer}>
+      <Header />
+      <Drawer anchor="left" open={true}>
         <Box sx={{ width: 250 }}>
           <List>
             <ListItem button>
