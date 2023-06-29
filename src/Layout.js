@@ -8,6 +8,9 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
 import LocalAtmIcon from "@mui/icons-material/LocalAtm";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import FormComponent from "./FormComponent";
+import DataPage from "./DataPage";
 
 const Layout = ({ children }) => {
   return (
@@ -168,7 +171,10 @@ const Layout = ({ children }) => {
             overflowY: "auto",
           }}
         >
-          메인 내용~
+          <Routes>
+            <Route path="/" element={<FormComponent />} />
+            <Route path="/data/:data" element={<DataPage />} />
+          </Routes>
         </Box>
       </Box>
       <Footer />
