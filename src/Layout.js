@@ -2,7 +2,6 @@ import React from "react";
 import Box from "@mui/material/Box";
 import Header from "./Header";
 import Footer from "./Footer";
-import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
@@ -14,8 +13,15 @@ const Layout = ({ children }) => {
   return (
     <Box sx={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
       <Header />
-      <Drawer anchor="left" open={true}>
-        <Box sx={{ width: 250 }}>
+      <Box sx={{ display: "flex", flexGrow: 1 }}>
+        <Box
+          component="nav"
+          sx={{
+            width: 250,
+            flexShrink: 0,
+            backgroundColor: "#f0f0f0",
+          }}
+        >
           <List>
             <ListItem button>
               <ListItemIcon>
@@ -31,9 +37,9 @@ const Layout = ({ children }) => {
             </ListItem>
           </List>
         </Box>
-      </Drawer>
-      <Box component="main" sx={{ flexGrow: 1, pt: 3, pb: 2 }}>
-        {children}
+        <Box component="main" sx={{ flexGrow: 1, pt: 3, pb: 2 }}>
+          메인 내용~
+        </Box>
       </Box>
       <Footer />
     </Box>
