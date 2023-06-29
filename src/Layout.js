@@ -20,6 +20,8 @@ const Layout = ({ children }) => {
             width: 250,
             flexShrink: 0,
             backgroundColor: "#f0f0f0",
+            overflowY: "auto", // 스크롤 추가
+            maxHeight: "100vh", // 메뉴바영역의 최대 높이 화면의 세로로 설정
           }}
         >
           <List>
@@ -34,10 +36,138 @@ const Layout = ({ children }) => {
                 <LocalAtmIcon />
               </ListItemIcon>
               <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
+            </ListItem>{" "}
+            <ListItem button>
+              <ListItemIcon>
+                <LocalAtmIcon />
+              </ListItemIcon>
+              <ListItemText primary="환불" />
             </ListItem>
           </List>
         </Box>
-        <Box component="main" sx={{ flexGrow: 1, pt: 3, pb: 2 }}>
+        <Box
+          component="main"
+          sx={{
+            flexGrow: 1,
+            pt: 3,
+            pb: 2,
+            overflowY: "auto",
+          }}
+        >
           메인 내용~
         </Box>
       </Box>
