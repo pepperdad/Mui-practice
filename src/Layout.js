@@ -32,133 +32,19 @@ const Layout = ({ children }) => {
               <ListItemIcon>
                 <LocalShippingIcon />
               </ListItemIcon>
-              <ListItemText primary="배송" />
+              <ListItemText primary="회원가입" />
             </ListItem>
             <ListItem button>
               <ListItemIcon>
                 <LocalAtmIcon />
               </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
+              <ListItemText primary="로그인" />
             </ListItem>
             <ListItem button>
               <ListItemIcon>
                 <LocalAtmIcon />
               </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
-            </ListItem>{" "}
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="환불" />
+              <ListItemText primary="교정페이지" />
             </ListItem>
           </List>
         </Box>

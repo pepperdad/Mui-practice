@@ -17,7 +17,7 @@ const Header = ({ onMenuClick }) => {
         >
           <MenuIcon />
         </IconButton>
-        <Typography variant="h6">My App</Typography>
+        <Typography variant="h6">안대유</Typography>
       </Toolbar>
     </AppBar>
   );
