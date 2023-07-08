@@ -8,9 +8,10 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
 import LocalAtmIcon from "@mui/icons-material/LocalAtm";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import FormComponent from "./FormComponent";
 import DataPage from "./DataPage";
+import MyComponent from "./MyComponent";
 
 const Layout = ({ children }) => {
   return (
@@ -40,12 +41,14 @@ const Layout = ({ children }) => {
               </ListItemIcon>
               <ListItemText primary="로그인" />
             </ListItem>
-            <ListItem button>
-              <ListItemIcon>
-                <LocalAtmIcon />
-              </ListItemIcon>
-              <ListItemText primary="교정페이지" />
-            </ListItem>
+            <Link to="/componentPage">
+              <ListItem button>
+                <ListItemIcon>
+                  <LocalAtmIcon />
+                </ListItemIcon>
+                <ListItemText primary="교정페이지" />
+              </ListItem>
+            </Link>
           </List>
         </Box>
         <Box
@@ -60,6 +63,7 @@ const Layout = ({ children }) => {
           <Routes>
             <Route path="/" element={<FormComponent />} />
             <Route path="/data/:data" element={<DataPage />} />
+            <Route path="/componentPage" element={<MyComponent />} />
           </Routes>
         </Box>
       </Box>
