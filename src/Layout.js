@@ -12,6 +12,7 @@ import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import FormComponent from "./FormComponent";
 import DataPage from "./DataPage";
 import MyComponent from "./MyComponent";
+import MyReackHookForm from "./MyReackHookForm";
 
 const Layout = ({ children }) => {
   return (
@@ -64,6 +65,7 @@ const Layout = ({ children }) => {
             <Route path="/" element={<FormComponent />} />
             <Route path="/data/:data" element={<DataPage />} />
             <Route path="/componentPage" element={<MyComponent />} />
+            <Route path="/useHookForm" element={<MyReackHookForm />} />
           </Routes>
         </Box>
       </Box>
