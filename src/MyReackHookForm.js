@@ -47,3 +47,11 @@ export default MyReackHookForm;
 // handleSubmit 메소드를 폼의 onSubmit 이벤트 핸들러로 설정하여 폼이 제출될 때 호출될 함수를 지정합니다. 데이터가 제출될 때 onSubmit 함수가 호출되며, 해당 함수에서 데이터를 처리하거나 API 요청을 보낼 수 있습니다.
 
 // 이렇게 React Hook Form을 사용하여 간단한 폼을 관리할 수 있습니다. 더 자세한 내용과 고급 사용법은 React Hook Form 공식 문서를 참고하시면 도움이 됩니다.
+
+// {errors.email && <span>Please enter a valid email</span>}는 React Hook Form에서 제공하는 오류 메시지 표시 방식입니다. 이 부분은 입력 필드의 유효성 검사를 통과하지 못한 경우, 해당 필드에 대한 오류 메시지를 표시하는 역할을 합니다.
+
+// errors.email은 register 메소드에서 등록한 입력 필드의 유효성 검사 결과를 나타내는 속성입니다. 만약 email 필드가 유효성 검사를 통과하지 못하면, errors.email 값은 true가 되고, 그렇지 않은 경우에는 false 또는 undefined가 됩니다.
+
+// 따라서 위의 코드는 errors.email 값이 true인 경우에만 <span>Please enter a valid email</span>을 렌더링하여 해당 오류 메시지를 화면에 표시합니다. 이를 통해 사용자에게 유효성 검사 오류를 알려줄 수 있습니다.
+
+// 즉, errors.email && <span>Please enter a valid email</span>는 "만약 email 필드의 유효성 검사 오류가 있으면 오류 메시지를 표시하고, 그렇지 않으면 아무것도 표시하지 않는다"는 의미입니다.
