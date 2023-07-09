@@ -13,6 +13,8 @@ import FormComponent from "./FormComponent";
 import DataPage from "./DataPage";
 import MyComponent from "./MyComponent";
 import MyReackHookForm from "./MyReackHookForm";
+import MyForm1 from "./MyForm1";
+import MyForm2 from "./MyForm2";
 
 const Layout = ({ children }) => {
   return (
@@ -66,6 +68,8 @@ const Layout = ({ children }) => {
             <Route path="/data/:data" element={<DataPage />} />
             <Route path="/componentPage" element={<MyComponent />} />
             <Route path="/useHookForm" element={<MyReackHookForm />} />
+            <Route path="/myForm1" element={<MyForm1 />} />
+            <Route path="/myForm2" element={<MyForm2 />} />
           </Routes>
         </Box>
       </Box>
